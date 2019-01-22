@@ -44,6 +44,10 @@ gem 'bootstrap-sass'
 gem 'paperclip'
 gem 'acts_as_votable', '~> 0.12.0'
 
+gem 'coffee-script-source'
+#
+gem 'execjs'
+gem 'mini_racer'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
