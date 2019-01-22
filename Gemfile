@@ -42,6 +42,8 @@ gem 'haml'
 gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'paperclip'
+gem 'acts_as_votable', '~> 0.12.0'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
