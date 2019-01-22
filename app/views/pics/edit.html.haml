@@ -1,3 +1,10 @@
-%h1 Edit picture
-= render "form"
-= link_to "Cancel", pic_path
+#edit_page.col-md-8.col-md-offset-2
+	.row
+		.panel.panel-default
+			.panel-heading
+				%h1 Edit picture
+			.panel-body
+				.current_image
+					%strong.center Image right now
+					= image_tag @pic.image.url(:medium)
+				= render "form"
