@@ -12,7 +12,7 @@
 		.container
 			.navbar-brand = link_to "Inst", root_path
 
-			- if user.signed_in? 
+			- if user_signed_in? 
 				%ul.nav.navbar-nav.navbar-left
 					%li = link_to "Create new", new_post_path
 					%li = link_to "Settings", edit_user_registration_path
